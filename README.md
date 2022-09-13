@@ -1,9 +1,9 @@
 # Flixy
 
-Flixy is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-This app is created on Swift platform for ios mobile development on xcode. 
-This is the first project from CodePath's ios University course, utilizing UI elements in ios development such as TableView, Cell Recycling & Networking with APIs
-New software features such as ViewController and Storyboard were implimented for the development of the application.
+#### Flixy is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+#### This app is created on Swift platform for ios mobile development on xcode. 
+#### This is the first project from CodePath's ios University course, utilizing UI elements in ios development such as TableView, Cell Recycling & Networking with APIs
+#### New software features such as ViewController and Storyboard were implimented for the development of the application.
 ---
 
 ## Flix Part 1

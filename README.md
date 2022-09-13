@@ -22,7 +22,7 @@
 ### App Walkthrough GIF
 
 
-<img src="https://recordit.co/Vgf9PU4ShR" width=250><br>
+<img src="https://recordit.co/Vgf9PU4ShR" width=200><br>
 
 ### Notes
 

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.2)
+  - NavigationDrawer (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - NavigationDrawer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NavigationDrawer
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  NavigationDrawer: ad87622628ed59589f8fe8e2338d27109ca51a64
+
+PODFILE CHECKSUM: 2a02e3b248182c7b7a0649528f50e8610b0a9af1
+
+COCOAPODS: 1.11.3

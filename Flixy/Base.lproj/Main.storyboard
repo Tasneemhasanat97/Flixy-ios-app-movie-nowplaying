@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rnq-b6-jF9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rnq-b6-jF9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,7 +23,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="134" id="zu2-wN-6hP" customClass="MovieCell" customModule="Flixy" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="134"/>
+                                        <rect key="frame" x="0.0" y="50" width="414" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zu2-wN-6hP" id="MqA-zw-Yfk">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="134"/>
@@ -53,6 +54,7 @@
                                             <outlet property="posterView" destination="blf-nW-M7C" id="Tv2-pC-vNm"/>
                                             <outlet property="synopsisLabel" destination="C6c-l7-WJn" id="eus-ua-OkG"/>
                                             <outlet property="titleLabel" destination="pWM-Z4-7Om" id="bWD-tc-Aw6"/>
+                                            <segue destination="jXs-rC-MKq" kind="show" id="o5E-BB-s0g"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -76,7 +78,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rnq-b6-jF9" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HCv-zF-EEp">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -87,6 +89,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E6H-TP-yfS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="347.82608695652175" y="-589.28571428571422"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="u11-qt-n59">
+            <objects>
+                <viewController id="jXs-rC-MKq" customClass="MovieDetailsViewController" customModule="Flixy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Agt-Or-dXq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="c7o-Mc-kiC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3u4-PA-9iy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PF5-qK-50Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2161" y="-589"/>
         </scene>
     </scenes>
     <resources>

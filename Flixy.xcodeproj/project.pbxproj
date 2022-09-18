@@ -19,6 +19,7 @@
 		4C762E5428CEE2B0000BBFF0 /* FlixyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C762E5328CEE2B0000BBFF0 /* FlixyUITests.swift */; };
 		4C762E5628CEE2B0000BBFF0 /* FlixyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C762E5528CEE2B0000BBFF0 /* FlixyUITestsLaunchTests.swift */; };
 		4C762E6528CF03F6000BBFF0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C762E6428CF03F6000BBFF0 /* MovieCell.swift */; };
+		4C7F704728D79DAE00F86E31 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F704628D79DAE00F86E31 /* MovieDetailsViewController.swift */; };
 		C94DE3BA6039D366E62C86D8 /* Pods_Flixy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5214E8C67963AA9B4DE5F9 /* Pods_Flixy.framework */; };
 		D3F0457C6A4D3A44085340B7 /* Pods_FlixyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9276380F857F277CFB3EEBF5 /* Pods_FlixyTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		4C762E5328CEE2B0000BBFF0 /* FlixyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixyUITests.swift; sourceTree = "<group>"; };
 		4C762E5528CEE2B0000BBFF0 /* FlixyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4C762E6428CF03F6000BBFF0 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		4C7F704628D79DAE00F86E31 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		8846E07DBDF506A0C81BA098 /* Pods-FlixyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixyTests.release.xcconfig"; path = "Target Support Files/Pods-FlixyTests/Pods-FlixyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9276380F857F277CFB3EEBF5 /* Pods_FlixyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5CAB693D0F2FE5F6F699A0 /* Pods-Flixy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixy.debug.xcconfig"; path = "Target Support Files/Pods-Flixy/Pods-Flixy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				4C762E3B28CEE2AF000BBFF0 /* Assets.xcassets */,
 				4C762E3D28CEE2AF000BBFF0 /* LaunchScreen.storyboard */,
 				4C762E4028CEE2AF000BBFF0 /* Info.plist */,
+				4C7F704628D79DAE00F86E31 /* MovieDetailsViewController.swift */,
 			);
 			path = Flixy;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7F704728D79DAE00F86E31 /* MovieDetailsViewController.swift in Sources */,
 				4C762E3728CEE2AD000BBFF0 /* MoviesViewController.swift in Sources */,
 				4C762E3328CEE2AD000BBFF0 /* AppDelegate.swift in Sources */,
 				4C762E6528CF03F6000BBFF0 /* MovieCell.swift in Sources */,

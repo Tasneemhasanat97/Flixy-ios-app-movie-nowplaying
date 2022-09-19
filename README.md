@@ -4,16 +4,17 @@
 #### This app is created on Swift platform for ios mobile development on xcode. 
 #### This is the first project from CodePath's ios University course, utilizing UI elements in ios development such as TableView, Cell Recycling & Networking with APIs
 #### New software features such as ViewController and Storyboard were implimented for the development of the application.
-
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
+#### Added a dark mode theme to the entire application including the launch screen 
+#### Dark mode implementation done via customizing story-boards
+#### Plans on later adding a dark-mode button to project so user/client can switch in between dark and light modes
 
 ## Flix Part 2
 
 ### User Stories
 
 #### REQUIRED (10pts)
-- [ ] (5pts) User can tap a cell to see more details about a particular movie.
-- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
 - [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.

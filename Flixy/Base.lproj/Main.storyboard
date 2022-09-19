@@ -180,7 +180,6 @@
         <!--Movie Details View Controller-->
         <scene sceneID="u11-qt-n59">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PF5-qK-50Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="jXs-rC-MKq" customClass="MovieDetailsViewController" customModule="Flixy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Agt-Or-dXq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -220,6 +219,7 @@
                         <outlet property="titleLabel" destination="70W-B6-1f0" id="B8V-tb-Rbx"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PF5-qK-50Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="348" y="757"/>
         </scene>

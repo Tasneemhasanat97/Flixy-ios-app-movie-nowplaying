@@ -25,7 +25,9 @@
 <img src="http://g.recordit.co/MrHesk9i3o.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+
+#### Some of the issue I had was integrating the collectionView to the main code with building an overload function
+
 
 
 ---

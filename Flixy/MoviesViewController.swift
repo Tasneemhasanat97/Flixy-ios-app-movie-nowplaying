@@ -80,7 +80,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // Get the new view controller using segue.destination
         // Pass the selected object to the new view controller.
         
-        print("loading up details screen")
+        //print("loading up details screen")
         
         // Find the selected movie
         let cell = sender as! UITableViewCell
@@ -89,10 +89,14 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         // Pass the selected movie to the details view controller
         
+        // movie details view controller configuration
         let detailsViewController = segue.destination as! MovieDetailsViewController
         detailsViewController.movie = movie
         
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        
     }
+   
 }
 
